@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171819">
+  <meta name="description" content="Aditya Diwanad, software developer in Bengaluru. Java, full-stack applications, and a growing interest in intelligent systems. Explore projects and get in touch.">
+  <title>Aditya Diwanad | Software Developer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- HEADER: Change navigation labels and links here. -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Aditya Diwanad, home"><span class="brand-mark">ad<span>.</span></span><span class="brand-name">Aditya Diwanad</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-resume" href="assets/Aditya-Diwanad-Resume.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO: Edit your introduction, role, and primary links here. -->
+    <section class="hero page-width" id="home" aria-labelledby="hero-title">
+      <div class="hero-intro">
+        <p class="eyebrow"><span class="short-line" aria-hidden="true"></span> JAVA · FULL-STACK DEVELOPMENT</p>
+        <h1 id="hero-title">Hi, I’m Aditya<span class="blue">.</span><br><span class="hero-role">I build for the web.</span></h1>
+        <p class="hero-description">A software developer turning ideas into full-stack applications. Java is my foundation. Building useful things is what keeps me curious.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore projects <span aria-hidden="true">↘</span></a>
+          <a class="button secondary" href="assets/Aditya-Diwanad-Resume.pdf" download="Aditya-Diwanad-Resume.pdf">Download resume <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/adithyadiwanad-sudo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/aditya-diwanad/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="mailto:adithyadiwanad@gmail.com">Email <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="portrait-panel" aria-label="Aditya Diwanad">
+        <div class="portrait-frame"><img src="assets/aditya.jpg" alt="Aditya Diwanad" width="517" height="690" fetchpriority="high"></div>
+        <div class="portrait-label"><span class="mono">BASED IN BENGALURU</span><strong>Always building. Always learning.</strong></div>
+      </aside>
+    </section>
+
+    <div class="focus-strip page-width" aria-label="Areas of focus">
+      <span class="mono">MY FOCUS</span>
+      <span>Full-stack development</span><span class="strip-plus" aria-hidden="true">+</span>
+      <span>Data structures & algorithms</span><span class="strip-plus" aria-hidden="true">+</span>
+      <span>Learning by building</span>
+    </div>
+
+    <!-- PROJECTS: Each article is one project. Duplicate an article to add another. -->
+    <section class="work-section page-width section-space" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">Projects with purpose<span class="blue">.</span></h2></div>
+        <p>What I’m building, what I’ve learned,<br>and where the code lives.</p>
+      </div>
+
+      <!-- PROJECTS_START -->
+      <article class="project project-wanderlust">
+        <div class="project-visual web-visual">
+          <div class="visual-top"><span class="mono">WANDERLUST</span><span class="visual-category">FULL-STACK</span></div>
+          <div class="visual-heading">A place for<br>every <span>possibility.</span></div>
+          <div class="architecture" aria-label="Application architecture">
+            <div><span class="architecture-icon" aria-hidden="true">01</span><strong>Interface</strong><span>EJS + Bootstrap</span></div>
+            <span class="connector" aria-hidden="true">↓</span>
+            <div><span class="architecture-icon" aria-hidden="true">02</span><strong>Application</strong><span>Node.js + Express</span></div>
+            <span class="connector" aria-hidden="true">↓</span>
+            <div><span class="architecture-icon" aria-hidden="true">03</span><strong>Data</strong><span>MongoDB + Mongoose</span></div>
+          </div>
+          <p class="visual-caption mono">APPLICATION ARCHITECTURE / THREE CONNECTED LAYERS</p>
+        </div>
+        <div class="project-body">
+          <div class="project-meta"><span class="mono">PROJECT 01</span><span class="status">Course project</span></div>
+          <h3>WanderLust</h3>
+          <p class="project-subtitle">An accommodation listing platform.</p>
+          <p class="project-description">Built to understand the complete journey of a web request — from a listing form to an Express route, a MongoDB document, and a rendered page.</p>
+          <ul class="project-highlights">
+            <li>Listing creation, editing, and deletion</li>
+            <li>Related listings and reviews with Mongoose</li>
+            <li>Joi validation and centralized error handling</li>
+          </ul>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>MongoDB</span><span>EJS</span></div>
+          <a class="project-link" href="https://github.com/adithyadiwanad-sudo/wanderlust-project" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="project project-neuroshield">
+        <div class="project-visual security-visual">
+          <div class="visual-top"><span class="mono">NEUROSHIELD / IDS</span><span class="visual-category">SECURITY + ML</span></div>
+          <div class="visual-heading">Making threats<br><span>more visible.</span></div>
+          <div class="pipeline" aria-label="Planned intrusion detection workflow">
+            <div class="pipeline-step"><span class="pipeline-number">01</span><div><strong>Network data</strong><span>Prepare and validate features</span></div></div>
+            <div class="pipeline-step"><span class="pipeline-number">02</span><div><strong>Classification</strong><span>Identify suspicious patterns</span></div></div>
+            <div class="pipeline-step"><span class="pipeline-number">03</span><div><strong>Threat dashboard</strong><span>Make results easier to interpret</span></div></div>
+          </div>
+          <p class="visual-caption mono">PROJECT DIRECTION / IMPLEMENTATION IN PROGRESS</p>
+        </div>
+        <div class="project-body">
+          <div class="project-meta"><span class="mono">PROJECT 02</span><span class="status in-progress">In development</span></div>
+          <h3>NeuroShield IDS</h3>
+          <p class="project-subtitle">AI-powered network intrusion detection.</p>
+          <p class="project-description">My final-year project explores how machine learning can help identify network attacks. I’m working toward a connected detection pipeline with a dashboard for reviewing threats.</p>
+          <ul class="project-highlights">
+            <li>Focused on network intrusion detection</li>
+            <li>Python model service and Node.js backend</li>
+            <li>Ongoing model evaluation and dashboard integration</li>
+          </ul>
+          <div class="tags"><span>Python</span><span>scikit-learn</span><span>React</span><span>Node.js</span></div>
+          <a class="project-link" href="https://github.com/adithyadiwanad-sudo/NeuroShield" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+      <!-- PROJECTS_END -->
+      <a class="more-work" href="https://github.com/adithyadiwanad-sudo" target="_blank" rel="noopener noreferrer"><span>Smaller projects. More practice.</span><strong>See more on GitHub <span aria-hidden="true">↗</span></strong></a>
+    </section>
+
+    <!-- ABOUT: Keep experience and education current here. -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="page-width about-grid section-space">
+        <div class="about-intro"><p class="eyebrow">02 / BEHIND THE WORK</p><h2 id="about-title">I like knowing<br><span class="blue">why it works.</span></h2><p>I’m a final-year engineering student at Don Bosco Institute of Technology, Bengaluru, building a foundation for a career in software engineering.</p><p>Java taught me to break problems down. Full-stack development taught me to connect the pieces. I enjoy both: reasoning through an algorithm and turning an idea into an application people can use.</p><a class="inline-link" href="https://www.linkedin.com/in/aditya-diwanad/" target="_blank" rel="noopener noreferrer">More about my journey on LinkedIn <span aria-hidden="true">↗</span></a></div>
+        <div class="journey">
+          <div class="journey-item"><span class="journey-date mono">SEP — OCT 2025</span><h3>Frontend Developer Intern</h3><p class="journey-place">InLighnX Global Pvt. Ltd. · Bengaluru</p><p>Worked on responsive pages, reusable UI components, dashboard interfaces, and frontend bug fixes.</p></div>
+          <div class="journey-item"><span class="journey-date mono">2023 — 2027</span><h3>Bachelor of Engineering</h3><p class="journey-place">Don Bosco Institute of Technology</p><p>Building foundations in data structures, object-oriented programming, databases, and computer networks.</p></div>
+          <div class="journey-note"><span aria-hidden="true">↳</span><p>Currently bringing frontend, backend, and machine learning together through NeuroShield IDS.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS: List skills you can comfortably discuss and demonstrate. -->
+    <section class="skills-section page-width section-space" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / TECHNICAL TOOLKIT</p><h2 id="skills-title">Skills<span class="blue">.</span></h2></div><p>What I use to build,<br>debug, and keep learning.</p></div>
+      <div class="skills-tables">
+        <div class="skill-table-panel"><table><caption>Development</caption><tbody>
+          <tr><th scope="row">Languages</th><td>Java, JavaScript, Python basics</td></tr>
+          <tr><th scope="row">Frontend</th><td>React, HTML, CSS, EJS, Bootstrap</td></tr>
+          <tr><th scope="row">Backend</th><td>Node.js, Express, REST APIs</td></tr>
+        </tbody></table></div>
+        <div class="skill-table-panel"><table><caption>Data & tools</caption><tbody>
+          <tr><th scope="row">Databases</th><td>MongoDB, Mongoose, SQL</td></tr>
+          <tr><th scope="row">Tools</th><td>Git, GitHub, Postman, VS Code</td></tr>
+          <tr><th scope="row">Fundamentals</th><td>DSA, OOP, debugging, request validation</td></tr>
+        </tbody></table></div>
+      </div>
+      <div class="certifications"><p class="eyebrow">LEARNING BEYOND THE CLASSROOM</p><div class="cert-row"><strong>Oracle Cloud Infrastructure</strong><span>2025 Certified AI Foundations Associate</span><span class="mono">2025</span></div><div class="cert-row"><strong>J.P. Morgan · Forage</strong><span>Software Engineering Job Simulation</span><span class="mono">2025</span></div><div class="cert-row"><strong>Deloitte Australia · Forage</strong><span>Technology Job Simulation</span><span class="mono">2025</span></div></div>
+    </section>
+
+    <!-- CONTACT: Update email and social URLs here and in the hero. -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="page-width contact-grid">
+        <div><p class="eyebrow">04 / LET’S CONNECT</p><h2 id="contact-title">Have something<br>in mind? <span>Let’s talk.</span></h2><p>I’m interested in software engineering opportunities<br class="desktop-break"> and conversations about building useful products.</p></div>
+        <div class="contact-links"><a class="contact-email" href="mailto:adithyadiwanad@gmail.com"><span class="mono">SEND AN EMAIL</span><strong>adithyadiwanad@gmail.com</strong><span class="email-arrow" aria-hidden="true">↗</span></a><div class="contact-socials"><a href="https://www.linkedin.com/in/aditya-diwanad/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a><a href="https://github.com/adithyadiwanad-sudo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="assets/Aditya-Diwanad-Resume.pdf" download="Aditya-Diwanad-Resume.pdf">Resume <span aria-hidden="true">↓</span></a></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-width"><a class="brand" href="#home" aria-label="Back to home"><span class="brand-mark">ad<span>.</span></span></a><p>© <span id="year">2026</span> Aditya Diwanad</p><a href="#home">Back to top <span aria-hidden="true">↑</span></a><a class="manage-link" href="/admin">Manage projects</a></footer>
+</body>
+</html>
